@@ -37,16 +37,17 @@
   "devDependencies": {
     "@seneca/doc": "^4.0.1",
     "@seneca/provider": "^0.2.0",
-    "@types/jest": "^27.0.3",
+    "@types/jest": "^27.5.2",
     "@types/node": "^16.11.12",
     "esbuild": "^0.14.3",
     "esbuild-jest": "^0.5.0",
-    "jest": "^27.4.4",
+    "jest": "^27.5.1",
     "seneca": ">=3",
     "seneca-entity": "^16.0.3",
     "seneca-msg-test": "^3.2.0",
     "seneca-promisify": ">=2",
-    "typescript": "^4.5.3"
+    "supertest": "^6.3.1",
+    "typescript": "^4.8.4"
   },
   "peerDependencies": {
     "seneca": ">=3",
