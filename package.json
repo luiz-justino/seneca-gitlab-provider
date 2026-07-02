@@ -1,19 +1,19 @@
 {
-  "name": "@seneca/github-provider",
-  "version": "0.2.0",
-  "main": "dist/github-provider.js",
+  "name": "@seneca/gitlab-provider",
+  "version": "0.1.0",
+  "main": "dist/gitlab-provider.js",
   "type": "commonjs",
-  "types": "dist/github-provider.d.ts",
+  "types": "dist/gitlab-provider.d.ts",
   "description": "Handle incoming messages within other frameworks.",
-  "homepage": "https://github.com/senecajs/seneca-github-provider",
+  "homepage": "https://github.com/senecajs/seneca-gitlab-provider",
   "keywords": [
     "seneca",
-    "github-provider"
+    "gitlab-provider"
   ],
   "author": "Richard Rodger - richardrodger.com",
   "repository": {
     "type": "git",
-    "url": "git://github.com/senecajs/seneca-github-provider.git"
+    "url": "git://github.com/senecajs/seneca-gitlab-provider.git"
   },
   "scripts": {
     "test": "jest --coverage",
@@ -53,6 +53,6 @@
     "seneca-promisify": ">=2"
   },
   "dependencies": {
-    "@octokit/rest": "^18.12.0"
+    "@gitbeaker/node": "^35.6.0"
   }
 }

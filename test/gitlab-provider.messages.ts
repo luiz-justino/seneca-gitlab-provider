@@ -2,13 +2,13 @@
 
 export default {
   print: false,
-  pattern: 'sys:provider,provider:github',
+  pattern: 'sys:provider,provider:gitlab',
   allow: { missing: true },
 
   calls: [
     {
       pattern: 'get:info',
-      out: { ok: true, details: { sdk: '@octokit/rest' } },
+      out: { ok: true, details: { sdk: '@gitbeaker/node' } },
     }
   ]
 }

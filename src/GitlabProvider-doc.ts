@@ -7,12 +7,12 @@ const docs = {
     desc: 'Get information about the provider.',
   },
 
-  load_repo: {
-    desc: 'Load GitHub repository data into an entity.',
+  load_project: {
+    desc: 'Load the Gitlab project data into an entity, through a project id informed as a parameter.',
   },
 
-  save_repo: {
-    desc: 'Update GitHub repository data from an entity.',
+  save_project: {
+    desc: 'Update Gitlab project data from an entity, through a project id, informed as a parameter.',
   },
 
 }
